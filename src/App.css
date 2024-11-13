@@ -2,6 +2,26 @@
   text-align: center;
 }
 
+@font-face {
+  font-family: "PyeongChangPeace-Bold";
+  font-weight: normal;
+  src: url("./fonts/PyeongChangPeace-Bold.otf") format("truetype");
+}
+
+body {
+  font-family: "PyeongChangPeace-Bold";
+}
+
+@font-face {
+  font-family: "PyeongChangPeace-Light";
+  font-weight: normal;
+  src: url("./fonts/PyeongChangPeace-Light.otf") format("truetype");
+}
+
+body {
+  font-family: "PyeongChangPeace-Light";
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
