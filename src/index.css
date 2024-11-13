@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "PyeongChangPeace-Bold";
+  font-weight: normal;
+  src: url("./fonts/PyeongChangPeace-Bold.otf") format("truetype");
+}
+
+body {
+  font-family: "PyeongChangPeace-Regular";
+}
+
+@font-face {
+  font-family: "PyeongChangPeace-Light";
+  font-weight: normal;
+  src: url("./fonts/PyeongChangPeace-Light.otf") format("truetype");
+}
+
+body {
+  font-family: "PyeongChangPeace-Light";
+}
