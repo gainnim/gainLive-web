@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import io from "socket.io-client";
 import * as M from "./ChatStyle"; // 스타일드 컴포넌트 import
 
-const SERVER_URL = "ws://3.15.17.37"; // 서버 주소
+const SERVER_URL = "ws://gain.ze.am"; // 서버 주소
 
 const Chat = () => {
   const [socket, setSocket] = useState(null);
